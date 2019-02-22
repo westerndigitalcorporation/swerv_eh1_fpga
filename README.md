@@ -44,7 +44,7 @@ Prerequisites:
 --------------
  1. Xilinx Vivado 2018.2 toolchain
  2. Nexys4 DDR board 
- 3. Digilent [Board Files](https://reference.digilentinc.com/vivado/installing-vivado/start)
+ 3. Digilent [Board Files](https://reference.digilentinc.com/vivado/installing-vivado/start)  
    Note: this document also gives advice on properly installing vivado.
    If you have already vivado installed, you can just skip to section 3)
 
