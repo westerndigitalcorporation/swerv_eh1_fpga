@@ -1,6 +1,5 @@
 # FPGA Reference Design for the SweRV RISC-V Core<sup>TM</sup>
 # from Western Digital
-----------------------------------
 
 This repository contains design files for implementing a
 Swerv<sup>TM</sup>-based processor complex in a commercially available
