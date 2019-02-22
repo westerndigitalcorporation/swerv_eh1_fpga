@@ -67,13 +67,11 @@ Prerequisites:
 
 Setup:
 ------
-1. Set the SWERV_EH1_FPGA_PATH environment variable to repository path.  
-    ```$ cd /path/to/swerv_eh1_fpga 
-    ```  
-    ```        
-       $ export SWERV_EH1_FPGA_PATH=`pwd`
-    ```
-
+1. Set the SWERV_EH1_FPGA_PATH environment variable to repository path.
+        
+        $ cd /path/to/swerv_eh1_fpga 
+        $ export SWERV_EH1_FPGA_PATH=`pwd`
+        
 2. Copy `swerv_eh1` folder to the hardware directory
     (path:`${SWERV_EH1_FPGA_PATH}/hardware`) and set RV_ROOT to point
     `swerv_eh1` folder:  
@@ -88,12 +86,10 @@ Setup:
 
 4. Create FPGA project using the vivado tcl project script file
    `nexys4ddr_refprj.tcl` inside `project/script` folder.  
-   ```
-   $ cd $SWERV_EH1_FPGA_PATH/hardware/project/script
-   ```  
-   ```
-   $ vivado -source nexys4ddr_refprj.tcl
-   ```  
+   
+        $ cd $SWERV_EH1_FPGA_PATH/hardware/project/script
+        $ vivado -source nexys4ddr_refprj.tcl
+    
    Vivado will open and start building your project files.  (Note:
    this assumes that your path is correctly setup to launch vivado
    2018.2 by default.  You may need to supply an absolute path to
@@ -103,7 +99,7 @@ Setup:
 5. Now that you have the project directory, you synthesize and
    implement your design to obtain the FPGA .bit file, using the same
    flow you would use for any other Xilinx design:
-   Menu >> Flow >> Run Implementation
+   `Menu >> Flow >> Run` Implementation
   
    
 
