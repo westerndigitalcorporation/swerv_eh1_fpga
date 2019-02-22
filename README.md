@@ -1,5 +1,4 @@
-# FPGA Reference Design for the SweRV RISC-V Core<sup>TM</sup>
-# from Western Digital
+# FPGA Reference Design for the SweRV RISC-V Core<sup>TM</sup> from Western Digital
 
 This repository contains design files for implementing a
 Swerv<sup>TM</sup>-based processor complex in a commercially available
@@ -7,7 +6,7 @@ FPGA board, the Nexus4 DDR from Digilent Inc.   The repository also
 contains example software and support files for loading the software
 into the design, and debugging the software.  
 
-##License
+## License
 
 By contributing to this project, you agree that your contribution is
 governed by the [Apache-2.0](LICENSE) license.  
@@ -16,7 +15,7 @@ available under a different license. Please review each individual
 file for details.
 
 
-##Directory Structure
+## Directory Structure
 
 
     ├── hardware                # Hardware directory  
@@ -33,7 +32,7 @@ file for details.
         └── common              #  Common headers and printf utility   
 
 
-##How to build swerv_eh1 based reference design and run applications on Nexys4 DDR board?
+## How to build swerv_eh1 based reference design and run applications on Nexys4 DDR board?
 
 This readme assumes the user is building the swerv reference design
 from a Linux development machine.
