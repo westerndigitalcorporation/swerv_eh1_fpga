@@ -81,8 +81,7 @@ Setup:
    settings with `reset_vec=0x0`.  
    Go to configs folder (path: `$RV_ROOT/configs`) and run the
    `swerv.config` script as below:  
-    ```$ ./swerv.config -set reset_vec=0x0
-    ```
+    `$ ./swerv.config -set reset_vec=0x0`
 
 4. Create FPGA project using the vivado tcl project script file
    `nexys4ddr_refprj.tcl` inside `project/script` folder.  
