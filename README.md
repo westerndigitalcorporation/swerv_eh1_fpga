@@ -54,13 +54,13 @@ Prerequisites:
     **rv32imc**.  So the correct configuration command for building
     the cross-compiler is:  
     `$ ./configure --prefix=/opt/riscv --with-arch=rv32imc`  
-    `$ make linux`
+    `$ make`
 
 5. riscv openocd installation, for programming and debugging the core.
     This is available on [github](https://github.com/riscv/riscv-openocd)
     Note: The RISC-V consortium gnu-compiler-toolchain package also
     has a copy of openocd.   Make sure your path is set correctly to
-    point to THIS version from riscv-openocd    
+    point to commit version: af3a034 from riscv-openocd    
 
 6. Jtag probe (e.g., [Olimex](https://www.olimex.com))
 
