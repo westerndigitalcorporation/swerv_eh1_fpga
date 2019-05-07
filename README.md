@@ -62,7 +62,7 @@ Prerequisites:
     has a copy of openocd.   Make sure your path is set correctly to
     point to commit version: af3a034 from riscv-openocd    
 
-6. Jtag probe (e.g., [Olimex](https://www.olimex.com))
+6. Jtag probe (e.g., [Olimex](https://www.olimex.com) ARM-USB-Tiny-H)
 
 
 Setup:
