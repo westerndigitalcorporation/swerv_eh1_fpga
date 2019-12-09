@@ -1,10 +1,13 @@
 # FPGA Reference Design for the SweRV RISC-V Core<sup>TM</sup> from Western Digital
+This repository is deprecated. Please use the [Chip Alliance repository](https://github.com/chipsalliance/Cores-SweRV_fpga).
 
-This repository contains design files for implementing a
-Swerv<sup>TM</sup>-based processor complex in a commercially available
-FPGA board, the Nexus4 DDR from Digilent Inc.   The repository also
+This repository contains the SweRV Core<sup>TM</sup> version 1.0-based processor complex in a commercially available
+FPGA board, the Nexys4 DDR from Digilent Inc.   The repository also
 contains example software and support files for loading the software
-into the design, and debugging the software.  
+into the design, and debugging the software. This is a mirror repository. The main repository is in the [Chip
+Alliance github page.](https://github.com/chipsalliance/Cores-SweRV_fpga)
+Version 1.0 can be found in [1.0.](https://github.com/chipsalliance/Cores-SweRV_fpga/tree/1.0)
+  
 
 ## License
 
