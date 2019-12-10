@@ -6,7 +6,7 @@ FPGA board, the Nexys4 DDR from Digilent Inc.   The repository also
 contains example software and support files for loading the software
 into the design, and debugging the software. This is a mirror repository. The main repository is in the [Chip
 Alliance github page.](https://github.com/chipsalliance/Cores-SweRV_fpga)
-Version 1.0 can be found in [1.0.](https://github.com/chipsalliance/Cores-SweRV_fpga/tree/1.0)
+Version 1.0 can be found in [branch 1.0.](https://github.com/chipsalliance/Cores-SweRV_fpga/tree/1.0)
   
 
 ## License
