@@ -512,11 +512,11 @@ proc cr_bd_axi_intc { parentCell } {
   set bCheckIPs 1
   if { $bCheckIPs == 1 } {
      set list_check_ips "\ 
-  xilinx.com:ip:axi_bram_ctrl:4.0\
+  xilinx.com:ip:axi_bram_ctrl:4.1\
   xilinx.com:ip:axi_uartlite:2.0\
   xilinx.com:ip:blk_mem_gen:8.4\
   "
-
+  # changed axi_bram_ctrl:4.0 into axi_bram_ctrl:4.1
    set list_ips_missing ""
    common::send_msg_id "BD_TCL-006" "INFO" "Checking if the following IPs exist in the project's IP catalog: $list_check_ips ."
 
@@ -675,8 +675,8 @@ proc cr_bd_axi_intc { parentCell } {
   set S00_ARESETN_0 [ create_bd_port -dir I -type rst S00_ARESETN_0 ]
 
   # Create instance: axi_bram_ctrl_0, and set properties
-  set axi_bram_ctrl_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.0 axi_bram_ctrl_0 ]
-
+  set axi_bram_ctrl_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_bram_ctrl:4.1 axi_bram_ctrl_0 ]
+  # changed axi_bram_ctrl:4.0 to axi_bram_ctrl:4.1
   # Create instance: axi_interconnect_0, and set properties
   set axi_interconnect_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 axi_interconnect_0 ]
   set_property -dict [ list \
